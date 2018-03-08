@@ -1,3 +1,13 @@
+0.004   2018-03-08 (PERLANCAR)
+
+	- [Incompatible change] Rename schemas: cryptocurrency::symbol ->
+	  cryptocurrency::code, cryptocurrency::symbol_or_name ->
+	  cryptocurrency::code_or_name (symbol suggests special character
+	  like '$', etc).
+
+	- [doc] Mention Sah::Schemas::Currency.
+
+
 0.003   2018-01-30 (PERLANCAR)
 
 	- Add schema: cryptoexchange::name.
