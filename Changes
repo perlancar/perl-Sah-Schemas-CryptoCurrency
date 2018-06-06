@@ -1,3 +1,8 @@
+0.009   2018-06-06 (PERLANCAR)
+
+	- Add schema: cryptoexchange::currency_pair.
+
+
 0.008   2018-06-06 (PERLANCAR)
 
 	- Add schemas: fiat_currency, fiat_or_cryptocurrency.
