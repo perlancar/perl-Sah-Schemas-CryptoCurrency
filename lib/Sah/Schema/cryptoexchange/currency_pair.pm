@@ -8,9 +8,9 @@ our $schema = [str => {
     description => <<'_',
 
 Currency pair is string in the form of *currency1*/*currency2*, where
-*currency1* the traded currency and must be a known cryptocurrency code (e.g.
-LTC) while *currency2* is the base currency and must be a known fiat currency or
-a known cryptocurrency code (e.g. USD, or BTC).
+*currency1* is called the base currency and must be a known cryptocurrency code
+(e.g. LTC) while *currency2* is the quote (or price) currency and must be a
+known fiat currency or a known cryptocurrency code (e.g. USD, or BTC).
 
 Cryptocurrency code is checked against catalog in <pm:CryptoCurrency::Catalog>,
 while fiat currency code is checked against <pm:Locale::Codes::Currency_Codes>.
