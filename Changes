@@ -1,3 +1,10 @@
+0.012   2019-10-24  Released-By: PERLANCAR; Urgency: medium
+
+        - No functional changes.
+
+	- Update test (GDAX is now no more) [RT#130592].
+
+
 0.011   2018-06-10  Released-By: PERLANCAR
 
 	- No functional changes.
