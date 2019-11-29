@@ -18,10 +18,6 @@ subtest "basics" => sub {
     ($res, $val) = @{ $v->("foo") };
     ok($res);
 
-    ($res, $val) = @{ $v->("GDAX") };
-    ok(!$res);
-    is($val, "gdax");
-
     ($res, $val) = @{ $v->("BX Thailand") };
     ok(!$res);
     is($val, "bx-thailand");

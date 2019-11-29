@@ -1,3 +1,9 @@
+0.012   2019-11-29  Released-By: PERLANCAR; Urgency: medium
+
+	- Update coerce rule names in Sah schemas (Data::Sah::Coerce
+	  0.034+).
+
+
 0.011   2018-06-10  Released-By: PERLANCAR
 
 	- No functional changes.
