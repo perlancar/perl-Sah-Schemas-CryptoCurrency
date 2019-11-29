@@ -16,7 +16,7 @@ Will be normalized to safename in lowercase.
 
 _
     'x.completion' => 'cryptoexchange',
-    'x.perl.coerce_rules' => ['str_to_cryptoexchange_safename'],
+    'x.perl.coerce_rules' => ['From_str::to_cryptoexchange_safename'],
 }, {}];
 
 1;

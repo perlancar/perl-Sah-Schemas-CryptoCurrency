@@ -14,7 +14,7 @@ Name will be converted to lowercase.
 
 _
     'x.completion' => 'cryptocurrency_safename',
-    'x.perl.coerce_rules' => ['str_tolower'],
+    'x.perl.coerce_rules' => ['From_str::to_lower'],
 }, {}];
 
 1;

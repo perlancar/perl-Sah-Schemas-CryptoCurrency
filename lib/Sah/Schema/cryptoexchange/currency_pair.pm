@@ -20,7 +20,7 @@ Will be normalized to uppercase.
 _
     match => qr(\A\S+/\S+\z),
     #'x.completion' => 'cryptoexchange_currency_pair',
-    'x.perl.coerce_rules' => ['str_to_cryptoexchange_currency_pair'],
+    'x.perl.coerce_rules' => ['From_str::to_cryptoexchange_currency_pair'],
 }, {}];
 
 1;

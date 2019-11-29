@@ -6,7 +6,7 @@ package Sah::Schema::cryptoexchange::code;
 our $schema = [str => {
     summary => 'Cryptocurrency exchange code',
     'x.completion' => 'cryptoexchange_code',
-    'x.perl.coerce_rules' => ['str_toupper'],
+    'x.perl.coerce_rules' => ['From_str::to_upper'],
 }, {}];
 
 1;

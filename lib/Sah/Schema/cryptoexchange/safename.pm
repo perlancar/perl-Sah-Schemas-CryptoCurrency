@@ -6,7 +6,7 @@ package Sah::Schema::cryptoexchange::safename;
 our $schema = [str => {
     summary => 'Cryptocurrency exchange safename',
     'x.completion' => 'cryptoexchange_safename',
-    'x.perl.coerce_rules' => ['str_tolower'],
+    'x.perl.coerce_rules' => ['From_str::to_lower'],
 }, {}];
 
 1;

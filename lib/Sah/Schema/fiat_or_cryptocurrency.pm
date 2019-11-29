@@ -16,7 +16,7 @@ Will be normalized to code in uppercase.
 
 _
     'x.completion' => 'fiat_or_cryptocurrency',
-    'x.perl.coerce_rules' => ['str_to_fiat_or_cryptocurrency_code'],
+    'x.perl.coerce_rules' => ['From_str::to_fiat_or_cryptocurrency_code'],
 }, {}];
 
 1;

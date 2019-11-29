@@ -14,7 +14,7 @@ Code will be converted to uppercase.
 
 _
     'x.completion' => 'cryptocurrency_code',
-    'x.perl.coerce_rules' => ['str_toupper'],
+    'x.perl.coerce_rules' => ['From_str::to_upper'],
 }, {}];
 
 1;
